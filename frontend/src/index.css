@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #DFF2EB;
+  color: #5E6663;
+  font-family: 'Segoe UI', sans-serif;
+}
+a:hover {
+  transform: translateX(5px);
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+div:hover {
+  transform: translateY(-3px);
+}
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.fileCard:hover {
+  background: #ede9fe;
+  transform: translateX(5px);
+}
+div:hover {
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
